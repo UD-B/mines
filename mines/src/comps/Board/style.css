@@ -1,7 +1,7 @@
 .board {
     display: grid;
-    height: 500px;
-    width: 500px;
+    /* height: 500px;
+    width: 500px; */
     background-color: #55555548;
     gap: 5px;
     padding: 5px;
@@ -12,5 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: xxx-large;
+    font-size: large;
+    height: 30px;
+    width: 30px;
 }

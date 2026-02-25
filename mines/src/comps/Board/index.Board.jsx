@@ -9,7 +9,8 @@ const Board = () => {
         <section className='board' style={{ gridTemplateRows: `repeat(${XandY.x}, 1fr)`, gridTemplateColumns: `repeat(${XandY.y}, 1fr)` }}>
             {board.map((v, i) => (
                 <div key={i} className={v.class}>
-                    {v.text}
+                    {/* {v.text} */}
+                    {i}
                 </div>
             ))}
         </section>

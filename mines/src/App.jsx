@@ -1,14 +1,14 @@
 import { createContext, useState } from 'react'
 import './App.css'
 import { genBoard, randomInt } from './utils/utils.js'
-import Board from './comps/Board/index'
+import Board from './comps/Board/index.Board'
 
 export const GlobalContext = createContext();
 
 function App() {
     const [XandY, setXandY] = useState({
-        x: randomInt(3, 10),
-        y: randomInt(3, 10)
+        x: randomInt(9, 16),
+        y: randomInt(9, 16)
     })
     const [board, setBoard] = useState(genBoard(XandY.x, XandY.y))
 
